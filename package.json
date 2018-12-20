@@ -1,0 +1,14 @@
+{
+  "name": "node_cluster_docker",
+  "version": "1.0.0",
+  "description": "bot sharding platform via docker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "by77er",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
