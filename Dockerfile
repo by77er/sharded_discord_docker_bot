@@ -1,4 +1,4 @@
-# Use an official Python runtime as a parent image
+# Use an official node runtime as a parent image
 FROM node
 
 # Set the working directory to /app
