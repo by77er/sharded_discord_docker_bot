@@ -66,7 +66,7 @@ function rundiscord() {
             client.user.setPresence({ game: { name: 'Hello from spikeland!' } }).catch(console.error);
         }
         presence_flop = !presence_flop;
-    }, 30000); // change status every 10s
+    }, 30000); // change status every 30s
 
     client.on('warn', str => {
         console.error(`Shard ${process.env["id"]} \t: ` + str);
